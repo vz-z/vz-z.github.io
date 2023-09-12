@@ -1,0 +1,5 @@
+title: とある雑記
+description: よくある雑記です
+permalink: /:title
+plugins:
+  - jekyll-sitemap
