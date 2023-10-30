@@ -9,7 +9,7 @@ tags:
 --- 
 
 # bsdtar bug?
-compressing a directory including 1million 30GB files using `tar` command (bsdtar), a fatal error occurs.  
+compressing a directory including 1million (30GB in total) files using `tar` command (bsdtar), a fatal error occurs.  
 I googled, however, no related information found.
 ```bash
 $ tar -cv --cd ~/path -f - .
