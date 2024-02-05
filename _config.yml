@@ -1,0 +1,18 @@
+title: とある雑記
+description: よくある雑記です
+permalink: /:title
+lang: ja
+timezone: Asia/Tokyo
+plugins:
+  - jekyll-sitemap
+defaults:
+  -
+    scope:
+      path:            "default.html"
+    values:
+      sitemap:         false
+  -
+    scope:
+      path:            "google517adce0593f64e0.html"
+    values:
+      sitemap:         false
